@@ -6,6 +6,7 @@ import WelcomeMessage from './components/WelcomeMessage'
 import Header from './components/Header'
 import MainContent from './components/MainContent'
 import Footer from './components/Footer'
+import UserProfile from './components/UserProfile'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
       WelcomeMessage, <WelcomeMessage />
       <Header />
       <MainContent />
+      <UserProfile name="Merit" age="24" bio="a firm believer"/>
       <Footer />
     </>
   )
