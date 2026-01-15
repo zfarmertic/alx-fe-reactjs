@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { UserContext } from './Context/UserContext'
+import { UserContext } from './components/UserContext'
 import ProfilePage from './components/ProfilePage'
 function App() {
     const userData = {
