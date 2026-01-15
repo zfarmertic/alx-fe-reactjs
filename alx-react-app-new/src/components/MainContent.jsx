@@ -4,7 +4,7 @@ function MainContent() {
   return (
     <div>
         <main>
-             <p>I love to visit New York, Paris, and Tokyo.</p>
+             <p style={{color: "red"}}>I love to visit New York, Paris, and Tokyo.</p>
         </main>
     </div>
   )
