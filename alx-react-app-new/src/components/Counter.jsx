@@ -3,21 +3,21 @@ import React, { useState } from 'react'
 function Counter() {
     const [count, setCount] = useState(0)
 
-    function increment(){
+    function Increment(){
         setCount(count + 1)
     }
-    function decrease(){
+    function Decrement(){
         setCount(count - 1)
     }
-    function reset(){
+    function Reset(){
         setCount(0)
     }
 
   return (
     <div>
-        <button onClick={increment}>add</button>
-        <button onClick={decrease}>reduce</button>
-        <button onClick={reset}>reset</button>
+        <button onClick={Increment}>add</button>
+        <button onClick={Decrement}>reduce</button>
+        <button onClick={Reset}>reset</button>
         <p>{count}</p>
     </div>
   )
