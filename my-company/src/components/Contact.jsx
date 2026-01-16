@@ -30,7 +30,7 @@ function Contact() {
         
         <button 
           style={{ background: "green", color: "white", cursor: "pointer" }} 
-          onClick={handleClick}
+          onSubmit={handleClick}
         >
           Submit
         </button>
