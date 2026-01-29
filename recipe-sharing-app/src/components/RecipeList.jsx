@@ -1,8 +1,8 @@
 import React from 'react';
-import { useRecipeStore } from './recipeStore';
+import { useRecipeStores } from '../../stores/recipeStores';
 
   const RecipeList = () => {
-    const recipes = useRecipeStore(state => state.recipes);
+    const recipes = useRecipeStores(state => state.recipes);
 
     return (
       <div>
@@ -15,3 +15,5 @@ import { useRecipeStore } from './recipeStore';
       </div>
     );
   };
+
+  export default RecipeList;
